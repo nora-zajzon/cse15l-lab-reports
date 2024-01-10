@@ -1,6 +1,9 @@
 this is the second file i have to make
+
 _Testing the Italic_
+
 __Now Bold__
+
 This is a Heading 
 =========
 This is a SubHeader
