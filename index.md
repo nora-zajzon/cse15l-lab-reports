@@ -1,8 +1,6 @@
 _Hello_
 
-__Welcome to Week 1__
-
-This is a my Lab 
+Nora Zajzon's Lab #1
 =========
 Here is the link to my github profile [Link](https://github.com/nora-zajzon)
 
@@ -23,7 +21,7 @@ Classes I am taking this quarter:
 `Units:` 19 total
 
 ```
-This is the end of the rambling
+This is the end of the rambling to prove I can use different syntax
 Next are my answers to the lab questions
 ```
 
