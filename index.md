@@ -46,6 +46,7 @@ Command with a path to a directory as an argument
 Command with a path to a file as an argument
 =========
 ![Image](File.png)
+
 1) `cd lecture1/messages/en-us.txt` The output of this command line was expected as the file en-us.txt was as the argument. Therefore, the current directory cannot change to a file and will remain the same. This is an error in the sense that the current directory is not changed to the file given as an argument.
 2) `ls lecture1/messages/en-us.txt` The output of this command line was expected to return the files and directories in the current directory. However, if a file is given as the argument, there are no files or directories within it to list. This is an error in the sense that nothing will be listed as a result of the command other than the file you are in.
 3) `cat lecture1/messages/en-us.txt` The output of this command line was expected a file was given as an argument in the command. The terminal will print the content of the file. This is not an error.
