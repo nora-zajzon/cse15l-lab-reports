@@ -21,6 +21,7 @@ Classes I am taking this quarter:
 * HILD 7B
 * MCWP 50
 * Independent Research
+  
 `Units:` 19 total
 
 ```
