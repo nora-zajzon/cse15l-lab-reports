@@ -1,25 +1,29 @@
 this is the second file i have to make
 
-_Testing the Italic_
+_Hello_
 
-__Now Bold__
+__Welcome to Week 1__
 
-This is a Heading 
+This is a my Lab 
 =========
-This is a SubHeader
----------
-Here is the link to my github website [Link](https://nora-zajzon.github.io/cse15l-lab-reports/)
+Here is the link to my github profile [Link](https://github.com/nora-zajzon)
 
+This is my Dog Cherry
+---------
 ![Image](cherry.jpeg)
-> Random Blockquote
-* This
-* Is
-* A
-* List
-Horizontal rule:
+> I have two dogs but I wanted to use this picture
+
+Classes I am taking this quarter:
 ---
-`Inline code` then words that are not in it
+* CSE 15L
+* CSE 20
+* CSE 12
+* HILD 7B
+* MCWP 50
+* Independent Research
+`Units:` 19 total
+
 ```
-# code block
+Thank you for reading
 this is the end
 ```
