@@ -39,7 +39,7 @@ Command with a path to a directory as an argument
 
 1) `cd lecture1/` The output of this command line was expected as the directory lecture1 was as an argument. Therefore, the current directory will be changed to the lecture1 directory. This is not an error. __Current Directory when command was run: /home__
 2) `ls lecture1/` The output of this command line was expected to return the files and directories in the current directory. Since the current directory is /home/lecture1, it will list all of the files and directories within lecture1. This is not an error. __Current Directory when command was run: /home__
-3) `cat lecture1/` The output of this command line was expected since no file was given as an argument. Since a directory is given instead of a file, the terminal will automatically state that the argument given is a directory. This is an error in the sense the command of cat is not carried through since it can not print the content of a file. __Current Directory when command was run: /home__
+3) `cat lecture1/` The output of this command line was expected since no file was given as an argument. Since a directory is given instead of a file, the terminal will automatically state that the argument given is a directory. This is an error in the sense the command of cat is not carried through since it can not print the content of a file. In order to have an output to a directory that does not return an error, the command line would need to be cat lecture1/*.txt. __Current Directory when command was run: /home__
 
 Command with a path to a file as an argument
 =========
