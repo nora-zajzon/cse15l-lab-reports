@@ -29,7 +29,7 @@ No Arguments
 =========
 ![Image](NoArgs.png)
 
-1) `cd` The output of this command line was expected as no directory was selected. Therefore, when cd is used and no argument is given, no change in directory will be made. This is not an error. __Current Directory when command was run: /home__
+1) `cd` The output of this command line was expected as no directory was selected and I was in the home directory. If you're already in your home directory, running cd without arguments won't change the directory. If you're in any other directory, running cd without arguments will take you to your home directory. This is not an error. __Current Directory when command was run: /home__
 
 2) `ls` The output of this command line was expected to return the files and directories in the current directory. Since the current directory is /home, it will only list lecture1 since it is the only directory or file in /home. This is not an error. __Current Directory when command was run: /home__
 
@@ -51,6 +51,6 @@ Command with a path to a file as an argument
 
 1) `cd en-us.txt` The output of this command line was expected as the file en-us.txt was as the argument. Therefore, the current directory cannot change to a file and will remain the same. This is an error in the sense that the current directory is not changed to the file given as an argument. __Current Directory when command was run: /home/lecture1/messsages__
 
-2) `ls en-us.txt` The output of this command line was expected was expected to display information about the file 'en-us.txt' in the current directory. If you give a file name as an argument, it will display information about that one single file, so if the argument is a directory or empty, then it will display information about the files in that folder or information about one file if it is one file. This is an error in the sense that nothing will be listed as a result of the command other than the file you are in. __Current Directory when command was run: /home/lecture1/messsages__
+2) `ls en-us.txt` The output of this command line was expected was expected to display information about the file 'en-us.txt' in the current directory. If you give a file name as an argument, it will display information about that one single file, so if the argument is a directory or empty, then it will display information about the files in that folder or information about one file if it is one file. This is not an error since there were no folders or files to display within the file ls en-us.txt. __Current Directory when command was run: /home/lecture1/messsages__
 
 3) `cat en-us.txt` The output of this command line was expected a file was given as an argument in the command. The terminal will print the content of the file. This is not an error. __Current Directory when command was run: /home/lecture1/messsages__
